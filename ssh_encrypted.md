@@ -62,4 +62,13 @@ In the local computer run this command to log in to the remote one:
 ssh -i .ssh/fede_windows pi@192.168.1.52
 ```
 
+## Step 8
+If your local coputer is Linux based and you want to avoid ssh-agent from using previously working keys, then used this command:
+```
+sudo nano /etc/ssh/ssh_config 
+```
+and add the following line of code under *Host **:
+```
+  IdentityAgent none
+```
 
