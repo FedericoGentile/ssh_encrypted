@@ -67,7 +67,7 @@ If your local coputer is Linux based and you want to avoid ssh-agent from using 
 ```
 sudo nano /etc/ssh/ssh_config 
 ```
-and add the following line of code under *Host **:
+and add the following line of code under *Host * *:
 ```
   IdentityAgent none
 ```
